@@ -1,9 +1,9 @@
-LIKES_FD = input("Do you like fish sticks?: ")
-if LIKES_FD[0] == 'Y' or 'y':
-    LIKES_FD_IN_MOUTH = input("Do you like putting fish sticks in your mouth?: ")
-    if LIKES_FD_IN_MOUTH[0] == 'Y' or 'y':
-        print("What are you, a GAY FISH?")
-    else:
-        print("You have defeated me! :(")
-else:
-    print("You have defeated me! :(")
+# Knock-Knock Joke Program
+print("Knock, knock.")  
+print("Who's there?")  
+print("Olive.")  
+print("Olive who?")  
+print("Olive your jokes are bad!")  
+
+# As one line of code using escape characters
+print("Knock, knock.\nWho's there?\nOlive.\nOlive who?\nOlive your jokes are bad!")
